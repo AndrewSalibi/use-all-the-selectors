@@ -1,0 +1,27 @@
+body {
+  background-color: #fdf6e3;
+}
+
+header, footer {
+  font-size: 1.5rem;
+}
+
+ul, nav {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  background-color: #eee8d5;
+}
+
+.contents, .favs, .facts, .types {
+  color: #93a1a1;
+}
+
+p .dfn {
+  background-color: #b58900;
+}
+
+div.dfn + p + strong {
+  color: #fff;
+}

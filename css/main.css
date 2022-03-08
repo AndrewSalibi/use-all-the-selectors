@@ -1,3 +1,7 @@
+html {
+  text-transform: uppercase;
+}
+
 body {
   background-color: #fdf6e3;
 }
@@ -24,4 +28,31 @@ p .dfn {
 
 div.dfn + p + strong {
   color: #fff;
+}
+
+a {
+  background-color: #719e07;
+}
+
+.external {
+  background-color: #2694d8;
+}
+ol #favs:first-child {
+  color: #719e47;
+}
+
+ol #favs:last-child {
+  #2aa198;
+}
+
+li .types:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+li .types:nth-child(even) {
+  background-color: #586e75;
+}
+
+li .types:nth-child(3n) {
+  background-color: #d04b16;
 }
